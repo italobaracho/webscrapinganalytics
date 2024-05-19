@@ -13,7 +13,7 @@ from pandas_gbq import to_gbq
 warnings.filterwarnings("ignore")
 
 
-# Parâmetros passados para o headers, problemas como 451.
+# Parâmetros passados para o headers, problemas como 403.
 request_headers = {
     'authority': 'steamdb.info',
     'method': 'GET',
