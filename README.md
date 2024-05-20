@@ -1,8 +1,12 @@
 # Execução do Web Scraping
 
-## Extração dos dados da SteamDB na aba "Sales"
+## Extração dos dados da SteamDB "Sales"
 
-A extração foi realizada com sucesso da web na [steam](https://steamdb.info/sales/), porém teve alguns impercilhos para executar essa extração por conta do bloqueio na pagina na parte do "sales" tive que desenvolver passar os parametros no cabeçalho para resolver o problema do erro 403
+Foi realizada a extração da web na [steam](https://steamdb.info/sales/), porém teve alguns impercilhos, o site da steamdb não possui "API" e não permite o web scraping porém foi possivel contornar parametrizando o header para realizar requests se passando por um browser está foi a forma que conseguir contornar erro dos tipos 401, 403 e 429. 
+
+<p align=center>
+  <img src="https://raw.githubusercontent.com/italobaracho/webscrapinganalytics/main/img/02.jpg" width="40%">
+</p>
 
 ## Arquitetura do projeto
 
@@ -10,23 +14,9 @@ A extração foi realizada com sucesso da web na [steam](https://steamdb.info/sa
   <img src="https://raw.githubusercontent.com/italobaracho/webscrapinganalytics/main/img/01.png" width="30%">
 </p>
 
-## Requesitos para o projeto:
-
-Python
-Pandas
-Warnings
-Requests
-BeautifulSoup
-BigQuery
-Service Account
-DateTime
-to_gbq
-
 ## Instalações e Bibliotecas:
-
-# Instale o Python 
+ 
 ```
-E logo em seguida execute o comando para instalar todas as libs do projeto
 pip install -r requirements.txt
 ```
 
