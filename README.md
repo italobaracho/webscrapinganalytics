@@ -43,7 +43,7 @@ STARTED - Quando começa a promoção dos jogos
 ````
 ## Conexão com o Google Cloud com o serviço PaaS o "BigQuery"
 
-Foi realizado a criação de projeto no _**Google BigQuery**_ com a criação de um dataset _**steamdb**_ e uma tabela _**game_play**_.
+Foi realizado a criação de projeto no _**Google BigQuery**_ com a criação de um dataset _**steamdb**_ e uma tabela _**gameplay**_.
 
 <p align=center>
   <img src="https://raw.githubusercontent.com/italobaracho/webscrapinganalytics/main/img/03.png" width="80%">
