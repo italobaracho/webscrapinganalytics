@@ -11,7 +11,7 @@ Foi realizada a extração da web na [steam](https://steamdb.info/sales/), poré
 ## Arquitetura do projeto
 
 <p align=center>
-  <img src="https://raw.githubusercontent.com/italobaracho/webscrapinganalytics/main/img/01.png" width="30%">
+  <img src="https://raw.githubusercontent.com/italobaracho/webscrapinganalytics/main/img/01.png" width="50%">
 </p>
 
 ## Instalações e Bibliotecas:
