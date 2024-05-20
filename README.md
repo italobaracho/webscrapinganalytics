@@ -35,12 +35,20 @@ STARTED - Quando começa a promoção dos jogos
 ## Estrutura do Projeto
 ````
 .
+├── img
 ├── README.md
 ├── info_games.csv
 ├── requirements.txt
 ├── steamdb.ipynb
 └── steamdb.py
 ````
+
+*   img - Pastas das imagens.
+*   README.md - Documentação do projeto.
+*   info_games.csv - Arquivos gerado pelo script python com os dados da SteamDB.
+*   steamdb.ipynb - Notebook com desenvolvimento do Web Scraping do SteamDB.
+*   steamdb.py - Neste arquivo contem o mesmo conteudo do notebook, pos o GitHub vem apresentando problemas na visualização do notebook.
+
 ## Conexão com o Google Cloud com o serviço PaaS o "BigQuery"
 
 Foi realizado a criação de projeto no _**Google BigQuery**_ com a criação de um dataset _**steamdb**_ e uma tabela _**gameplay**_.
@@ -51,7 +59,7 @@ Foi realizado a criação de projeto no _**Google BigQuery**_ com a criação de
 
 ## Conexão com o Google Sheets
 
-No armazenamento dos dados no "BigQuery" fiz a integração nativa com o "Google Sheets" que trouxe todos os dados do armazenamento do big, e podemos também com essa integração schedular pra posteriomente atualização dos dados 
+No armazenamento dos dados no _**BigQuery**_" fiz a integração nativa com o _**Google Sheets**_" que trouxe todos os dados armazenados, e possível também com essa integração schedular para atualização dos dados. 
 
 ### Link do Sheets:
 
